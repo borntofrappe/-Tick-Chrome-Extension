@@ -1,0 +1,22 @@
+{
+  
+  "name": "`Tick`",
+  "description": "Display a clock built with react and drawn with svg",
+  "version": "2.0",
+  "manifest_version": 2,
+
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Show Clock"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": [
+  ],
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  }
+}
